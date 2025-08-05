@@ -1,16 +1,26 @@
-# she_can_foundation
+# Fundraising Intern Portal UI
 
-A new Flutter project.
+## Overview 
 
-## Getting Started
+This is a simple, single-page React application that simulates a fundraising intern portal. It provides a clean, responsive user interface with dummy data for a light-themed experience. The app is a static UI and does not include any backend integration or live data fetching.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+* Login/Sign-Up Page: A static UI for user authentication (no functional logic).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Dashboard: Displays intern-specific information, including name, referral code, total donations raised, and a section for rewards/unlockables.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Leaderboard: Ranks a list of mock interns by their donation scores. The top three entries are highlighted.
+
+* Announcements: A feed of static announcements or dummy messages.
+
+## Future Improvements
+This project can be extended with the following features:
+
+* Backend Integration: Connect the UI to a real API to handle user authentication and fetch live data.
+
+* Profile Management: Allow interns to update their profile information.
+
+* Interactive Rewards: Make the rewards system functional, allowing interns to "unlock" items as they reach new milestones.
+  
+* Theme Toggle: Add a button to switch between the current light theme and a dark theme.
