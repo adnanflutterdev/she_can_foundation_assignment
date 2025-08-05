@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 const Color primaryBackground = Color(0xff0a0a0a);
 const Color panelBackground = Color(0xff111827);
 const Color cardBackground = Color(0xff1f2937);
-const Color borderColor = Color(0xff374151);
+const Color container = Color(0xff374151);
 
 // --- Text Colors ---
 const Color textPrimary = Color(0xfff3f4f6);
@@ -19,18 +19,17 @@ const Color buttonPrimary = Color(0xff4f46e5);
 const Color buttonPrimaryHover = Color(0xff4338ca);
 const Color iconHover = Color(0xffa5b4fc);
 const Color focusRing = Color(0xff6366f1);
+const Color white = Colors.white;
 
 // --- Leaderboard & Rewards Colors ---
 const Color gold = Color(0xfffacc15);
-const Color goldGradientStart = Color(0xfffacc15);
-const Color goldGradientEnd = Color(0xffca8a04);
 const Color silver = Color(0xff9ca3af);
 const Color bronze = Color(0xfffb923c);
 
 // Semi-transparent background for top 3 ranks
-const Color goldRankBackground = Color.fromARGB(51, 234, 179, 8); 
-const Color silverRankBackground = Color.fromARGB(51, 156, 163, 175); 
-const Color bronzeRankBackground = Color.fromARGB(51, 249, 115, 22); 
+const Color goldRankBackground = Color.fromARGB(51, 234, 179, 8);
+const Color silverRankBackground = Color.fromARGB(51, 156, 163, 175);
+const Color bronzeRankBackground = Color.fromARGB(51, 249, 115, 22);
 
 // Locked reward overlay color
 const Color lockedOverlay = Color.fromARGB(179, 17, 24, 39);
